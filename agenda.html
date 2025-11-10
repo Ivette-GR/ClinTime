@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda tu cita - ClinTime</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Agenda tu cita</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="agenda.html">Agenda tu cita</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="servicio">Servicio:</label><br>
+      <select id="servicio" name="servicio">
+        <option>Psicoterapia</option>
+        <option>Tanatología</option>
+        <option>Nutrición</option>
+      </select><br><br>
+
+      <label for="fecha">Fecha:</label><br>
+      <input type="date" id="fecha" name="fecha"><br><br>
+
+      <label for="hora">Hora:</label><br>
+      <input type="time" id="hora" name="hora"><br><br>
+
+      <input type="submit" value="Confirmar cita">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ventana al Alma Psicología</p>
+  </footer>
+</body>
+</html>

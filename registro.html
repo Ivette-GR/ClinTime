@@ -2,12 +2,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>ClinTime - Ventana al Alma</title>
+  <title>Registro de Paciente - ClinTime</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <h1>Ventana al Alma</h1>
+    <h1>Registro de Paciente</h1>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -20,12 +20,18 @@
   </header>
 
   <main>
-    <section>
-      <h2>Bienvenido a ClinTime</h2>
-      <p>Tu bienestar emocional comienza aquí. Agenda tu cita y conoce nuestros servicios.</p>
-      <img src="logo.png" alt="Logo Ventana al Alma" width="200">
-      <a href="agenda.html" class="boton">Agendar cita</a>
-    </section>
+    <form>
+      <label for="nombre">Nombre del paciente:</label><br>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="edad">Edad:</label><br>
+      <input type="number" id="edad" name="edad"><br><br>
+
+      <label for="motivo">Motivo de consulta:</label><br>
+      <textarea id="motivo" name="motivo" rows="4" cols="50"></textarea><br><br>
+
+      <input type="submit" value="Registrar">
+    </form>
   </main>
 
   <footer>
